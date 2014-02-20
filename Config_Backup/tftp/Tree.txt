@@ -1,0 +1,13 @@
+/n Dirstructure /var/lib/tftpboot /n
+/var/lib/tftpboot
+├── images
+│   └── rhel6
+│       ├── initrd.img
+│       └── vmlinuz
+├── menu.c32
+├── pxelinux.0
+├── pxelinux.cfg
+│   └── default
+└── vesamenu.c32
+
+3 directories, 6 files

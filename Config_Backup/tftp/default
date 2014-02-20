@@ -1,0 +1,22 @@
+default vesamenu.c32
+timeout 100000
+
+menu width 78
+menu margin 4
+menu rows 13
+menu background murad.png
+menu color border 0 #ffffffff #ee000000 std
+menu tolor title 0 #fffffff #ee000000 std
+menu color sel 0 # ffffffff #85000000 std
+menu clolor unsel 0 #ffffffff #ee000000 std
+menu color hotkey 0 #ff00ff00 #ee000000 std
+menu color hotsel 0 #ffffff #85000000 std
+MENU TITLE ##### Pranky's PXE SERVER #####
+
+LABEL 1
+MENU LABEL ^1) Install RHEL 6.4 Fully-Automatic
+KERNEL images/rhel6/vmlinuz append vga-normal initrd=images/rhel6/initrd.img ramdisk_size=32768 ks=ftp://192.168.0.1/pub/ks/ftpInstall.cfg noipv6 devfs=nomount
+
+LABEL 2
+        MENU LABEL ^2) Boot From LOCAL DRIVE
+localboot

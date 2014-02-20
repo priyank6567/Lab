@@ -30,6 +30,8 @@ echo "/n Dirstructure /var/lib/tftpboot /n">/var/ftp/pub/Lab/Config_Backup/tftp/
 tree /var/lib/tftpboot | cat>>/var/ftp/pub/Lab/Config_Backup/tftp/Tree.txt
 
 
+
+
 #Backup FSTAB
 #/etc/fstab
 rm -f /var/ftp/pub/Lab/Config_Backup/fstab/*

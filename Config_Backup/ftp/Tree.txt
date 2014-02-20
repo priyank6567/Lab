@@ -1,0 +1,138 @@
+\n Dirstructure /var/ftp/\n
+/var/ftp
+├── keylogs
+│   ├── 20130904_020223.logfile.txt.zip
+│   └── testlog
+├── ks.cfg
+└── pub
+    ├── configFiles
+    │   ├── mainRepo.repo
+    │   └── myRepo.repo
+    ├── ks
+    │   └── ftpInstall.cfg
+    ├── Lab
+    │   ├── Architecture
+    │   │   ├── lab_architecture.gliffy
+    │   │   └── lab_architecture.svg
+    │   ├── Config_Backup
+    │   │   ├── dhcp
+    │   │   │   ├── dhcpd.conf
+    │   │   │   └── Readme.txt
+    │   │   ├── fstab
+    │   │   │   └── fstab
+    │   │   ├── ftp
+    │   │   │   ├── pub
+    │   │   │   │   ├── configFiles
+    │   │   │   │   │   ├── mainRepo.repo
+    │   │   │   │   │   └── myRepo.repo
+    │   │   │   │   ├── ks
+    │   │   │   │   │   └── ftpInstall.cfg
+    │   │   │   │   └── scripts
+    │   │   │   │       ├── 1config.sh
+    │   │   │   │       └── configBackup.sh
+    │   │   │   ├── Tree.txt
+    │   │   │   └── vsftpd.conf
+    │   │   ├── nfs
+    │   │   └── tftp
+    │   │       ├── default
+    │   │       ├── Readme.txt
+    │   │       ├── tftp
+    │   │       └── Tree.txt
+    │   ├── Kickstart
+    │   │   └── ftpInstall.cfg
+    │   ├── postScript.sh
+    │   ├── README.md
+    │   └── Scripts
+    │       ├── 1config.sh
+    │       └── configBackup.sh
+    ├── myRepo
+    │   ├── cobbler-2.4.0-1.el6.noarch.rpm
+    │   ├── cobbler-web-2.4.0-1.el6.noarch.rpm
+    │   ├── Django14-1.4.8-1.el6.noarch.rpm
+    │   ├── fuse-curlftpfs-0.9.1-1.el6.rf.x86_64.rpm
+    │   ├── libyaml-0.1.4-6.1.x86_64.rpm
+    │   ├── PyYAML-3.10-3.el6.x86_64.rpm
+    │   ├── repodata
+    │   │   ├── 02413ba6cccc77af0d66e951266ee26b0a54b3d944e59e509df5ea0a58cf3988-primary.sqlite.bz2
+    │   │   ├── 1d25a4ae9956cc0e8cc027654a69a411cf43ed5b4325c423ee5b07a660571329-filelists.sqlite.bz2
+    │   │   ├── 1ef383412b1c6ef2e0d4b65a121b9402af87e6faac819694abaad67ea09dac90-filelists.xml.gz
+    │   │   ├── 4d56bc94fefe61607be3d6e0f06675e7a7b6dc0b890e6d3147f854ba3ab906fe-other.sqlite.bz2
+    │   │   ├── 5553905bc843fabd4756d76c0f8565eb1f54a729f70d441398055261088ef3ea-other.xml.gz
+    │   │   ├── cadbb816788d0f67c87df5d58c3d32b8f679ab96fe4d6f49eed4ce9457c72e1c-primary.xml.gz
+    │   │   └── repomd.xml
+    │   ├── scalpel-2.0-1.el6.x86_64.rpm
+    │   └── webmin-1.660-1.noarch.rpm
+    └── scripts
+        ├── 1config.sh
+        └── configBackup.sh
+
+21 directories, 44 files
+/var/ftp
+├── keylogs
+│   ├── 20130904_020223.logfile.txt.zip
+│   └── testlog
+├── ks.cfg
+└── pub
+    ├── configFiles
+    │   ├── mainRepo.repo
+    │   └── myRepo.repo
+    ├── ks
+    │   └── ftpInstall.cfg
+    ├── Lab
+    │   ├── Architecture
+    │   │   ├── lab_architecture.gliffy
+    │   │   └── lab_architecture.svg
+    │   ├── Config_Backup
+    │   │   ├── dhcp
+    │   │   │   ├── dhcpd.conf
+    │   │   │   └── Readme.txt
+    │   │   ├── fstab
+    │   │   │   └── fstab
+    │   │   ├── ftp
+    │   │   │   ├── pub
+    │   │   │   │   ├── configFiles
+    │   │   │   │   │   ├── mainRepo.repo
+    │   │   │   │   │   └── myRepo.repo
+    │   │   │   │   ├── ks
+    │   │   │   │   │   └── ftpInstall.cfg
+    │   │   │   │   └── scripts
+    │   │   │   │       ├── 1config.sh
+    │   │   │   │       └── configBackup.sh
+    │   │   │   ├── Tree.txt
+    │   │   │   └── vsftpd.conf
+    │   │   ├── nfs
+    │   │   │   └── exports
+    │   │   └── tftp
+    │   │       ├── default
+    │   │       ├── Readme.txt
+    │   │       ├── tftp
+    │   │       └── Tree.txt
+    │   ├── Kickstart
+    │   │   └── ftpInstall.cfg
+    │   ├── postScript.sh
+    │   ├── README.md
+    │   └── Scripts
+    │       ├── 1config.sh
+    │       └── configBackup.sh
+    ├── myRepo
+    │   ├── cobbler-2.4.0-1.el6.noarch.rpm
+    │   ├── cobbler-web-2.4.0-1.el6.noarch.rpm
+    │   ├── Django14-1.4.8-1.el6.noarch.rpm
+    │   ├── fuse-curlftpfs-0.9.1-1.el6.rf.x86_64.rpm
+    │   ├── libyaml-0.1.4-6.1.x86_64.rpm
+    │   ├── PyYAML-3.10-3.el6.x86_64.rpm
+    │   ├── repodata
+    │   │   ├── 02413ba6cccc77af0d66e951266ee26b0a54b3d944e59e509df5ea0a58cf3988-primary.sqlite.bz2
+    │   │   ├── 1d25a4ae9956cc0e8cc027654a69a411cf43ed5b4325c423ee5b07a660571329-filelists.sqlite.bz2
+    │   │   ├── 1ef383412b1c6ef2e0d4b65a121b9402af87e6faac819694abaad67ea09dac90-filelists.xml.gz
+    │   │   ├── 4d56bc94fefe61607be3d6e0f06675e7a7b6dc0b890e6d3147f854ba3ab906fe-other.sqlite.bz2
+    │   │   ├── 5553905bc843fabd4756d76c0f8565eb1f54a729f70d441398055261088ef3ea-other.xml.gz
+    │   │   ├── cadbb816788d0f67c87df5d58c3d32b8f679ab96fe4d6f49eed4ce9457c72e1c-primary.xml.gz
+    │   │   └── repomd.xml
+    │   ├── scalpel-2.0-1.el6.x86_64.rpm
+    │   └── webmin-1.660-1.noarch.rpm
+    └── scripts
+        ├── 1config.sh
+        └── configBackup.sh
+
+21 directories, 45 files
