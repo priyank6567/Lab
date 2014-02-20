@@ -1,11 +1,15 @@
-#!/bin/bash
 
-#Add Cron entry for update.sh
+<!-- saved from url=(0040)ftp://192.168.0.1/pub/scripts/1config.sh -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></head><body><pre style="word-wrap: break-word; white-space: pre-wrap;">#! /bin/bash
 
-cd /usr/Scripts/
-wget ftp://192.168.0.1/pub/files/update.sh
-chmod u+x update.sh
+# Configure Yum Repositories
+cd /etc/yum.repos.d
+rm * -f
+wget ftp://192.168.0.1/pub/configFiles/mainRepo.repo
+wget ftp://192.168.0.1/pub/configFiles/myRepo.repo
+
+#Set DHCP IP
+#Set Hostname
 
 
-
-#Get & Run Puppet Script
+</pre></body></html>
